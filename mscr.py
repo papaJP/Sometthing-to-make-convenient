@@ -96,7 +96,7 @@ answers = np.array(answers)
 #１行目の回答を使いたい場合は answers = answers[1:2,1:]
 #5行目の回答を使いたい場合は answers = answers[5:6,1:]
 
-answers = answers[9:10,1:]
+answers = answers[12:13,1:201]
 answers = np.ravel(answers)
 
 mres = ast == answers
