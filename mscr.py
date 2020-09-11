@@ -150,8 +150,8 @@ else:
     print("Part7 " + str(np.sum(P7)) + "answers correct")
     print(np.ravel(np.where(P7==False))+147,"incorrect")
 
-
+#yep!!
 if len (np.ravel(np.where(mres==False))) == 0:
-    print("Perfect!!")
+    print("Perfect!!!")
 else:
     print("Totally ",np.ravel(np.where(mres==False))+1," incorrect")
